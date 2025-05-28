@@ -24,3 +24,5 @@ console.log(typeof notAssigned); // "undefined"
 // Null - represents intentional absence of any object value
 let emptyValue = null;
 console.log(typeof emptyValue); // "object" (bug in JavaScript)
+
+// 0114974234
