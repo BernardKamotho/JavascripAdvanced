@@ -1,9 +1,10 @@
 let name = "  Alice Wanjiku "
 let age = 35
 
-// 1. Removing leading/trailing spaces and build a greeting using a string literals
 
 console.log(name)
+// 1. Removing leading/trailing spaces and build a greeting using a string literals
+
 console.log(name.trim())
 
 let greeting = `Hello, ${name.trim()}! You are ${age} years old.`

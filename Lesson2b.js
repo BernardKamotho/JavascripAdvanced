@@ -11,6 +11,7 @@ console.log(typeof sum)
 let answer = numbers.map(n => sum = sum + n)
 console.log("The answer is: " + sum)
 
+// by use of the filter method, create a program that is able to output the even numbers in the given array 
 // filter function
 let even  = numbers.filter(n => n % 2 === 0);
 console.log("The even numbers are: " + even)

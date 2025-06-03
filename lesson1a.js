@@ -17,7 +17,7 @@ let isAvailable = true;
 let isDone = false;
 console.log(typeof isAvailable); // "boolean"
 
-// Undefined - a variable declared but not assigned
+// Undefined - a variable declared but not assigned a value
 let notAssigned;
 console.log(typeof notAssigned); // "undefined"
 
