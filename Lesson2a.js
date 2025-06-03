@@ -15,7 +15,6 @@ console.log(somefruits)
 
 //pop method : We use it to remove an item of an array that appear at the end
 console.log(fruits)
-
 fruits.pop()
 console.log(fruits)
 console.log("The number of items in the arrray is: " + fruits.length)
