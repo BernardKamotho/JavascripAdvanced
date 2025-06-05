@@ -9,6 +9,10 @@
     <h1 id="title">Hello, world!</h1>
     <button onclick="changeTitle()">Change Text</button>
     <button onclick="changeContent()">change content</button>
+    <br> <br>  <br>
+
+    <input type="text" id="myInput" value=""> <br>
+    <button onclick="getInputValue()">Get Value</button>
 
     <script>
       const changeTitle = () => {
@@ -27,6 +31,14 @@
         let h1 = document.getElementById("title");
         let content = h1.innerText
         console.log("content: " + content)
+      }
+
+      const getInputValue = () =>{
+        //extract the values from an input
+        let input = document.getElementById("myInput");
+        let value = input.value
+
+        console.log("This is the text a person has typed: " + value)
       }
     </script>
   </body>
