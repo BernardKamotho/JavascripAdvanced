@@ -9,7 +9,7 @@ function greeting(){
     console.log("Hello there. How have you been?")
 };
 // calling/invoking a function
-greeting()
+greeting();
 
 
 // 2. Functions with parameters
@@ -32,11 +32,10 @@ function sum(num1, num2, num3){
 
 sum(4, 5, 10);
 
+// create a function to multiply four numbers(product).
 
-// create a function that multiplie four numbers:
+
 // Destructuring in functions
-
-
 function studentInfo({name, subject, cat1, cat2}){
     const total = cat1 + cat2 
     console.log(`${name} scored ${total} marks in ${subject}`);
