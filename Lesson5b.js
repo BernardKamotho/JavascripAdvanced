@@ -5,6 +5,7 @@ const fetchData = async () =>{
     try{
         //Send a request to the API (This api will definetly give us a response)
         let response = await fetch('https://api.chucknorris.io/jokes/random')
+        
 
         //Convert the response to JSON format (Also return a promise)
         let {created_at, value} = await response.json();
