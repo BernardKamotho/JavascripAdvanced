@@ -9,7 +9,7 @@ let total = math + english + science;
 //find the average of the three subjects
 let average = total / 3;
 console.log("The total is: " + total)
-console.log("The average is: " + average)
+console.log("The average is: " + average.toFixed(2))
 
 if (attendance < 75){
     console.log("Failed due to low attendance")

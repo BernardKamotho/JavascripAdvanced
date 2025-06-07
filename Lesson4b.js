@@ -18,6 +18,7 @@ for (let i = 1; i <= 5; i++){
 // initialize a variable with some values 
 // while (condition){
 // code to execute
+// increment/decrement
 // }
 
 let j = 1;
@@ -25,6 +26,14 @@ while (j <= 5){
     console.log("The value of j is: " + j)
     j++
 };
+
+// create while program that prints from 20 downto 10
+let m = 20;
+
+while (m >= 10){
+    console.log("The value is: " + m);
+    m--;
+}
 
 
 // create a while loop program that is able to print from 100 down to 30.
@@ -36,12 +45,12 @@ while (j <= 5){
 //  code to be executed
 // } while (condition);
 
-let k = 40;
+let p = 2;
 
 do {
-    console.log(k);
-    k++;
-} while (k <= 10);
+    console.log(p);
+    p++;
+} while (p <= 10);
 
 // Loops can be used to loop through/iterate through an array
 
@@ -57,18 +66,17 @@ for (let i = 0; i < countries.length; i++){
 // continue: is a keyword that is used with the continuation of the loop is a condition is met
 // break: is a keyword that is used to terminate the execution of the loop after a certain condition is met
 // example 1: continue
-for(let i =1; i <= 10; i++){
-    console.log(i)
-
+for(let i = 1; i <= 10; i++){
     if (i === 5){
-        console.log("Five is here.")
-    } continue;
-    
-};
+        console.log("Five is here.");
+        continue;
+    }
+    console.log(i);
+}
 
 // example2: break
 
 for(let i =20; i <= 30; i++){
     console.log(i)
     if (i === 26) break;
-}
+};

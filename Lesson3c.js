@@ -10,7 +10,7 @@ else {
 
 // if alse if statement.
 // It is used to evaluate multiple conditions. It returns true if a condition is met
-let grade = 100.1;
+let grade = 76;
 
 if (grade > 100){
     console.log("Invalid Grade input.")
